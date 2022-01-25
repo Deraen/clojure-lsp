@@ -6,7 +6,7 @@
 
 (def lib 'com.github.clojure-lsp/clojure-lsp)
 (def clojars-lib 'com.github.clojure-lsp/clojure-lsp-standalone)
-(def current-version (string/trim (slurp (io/resource "CLOJURE_LSP_VERSION"))))
+(def current-version (str (string/trim (slurp (io/resource "CLOJURE_LSP_VERSION"))) "-fix"))
 (def class-dir "target/classes")
 (def basis {:project "deps.edn"})
 (def uber-file (format "target/%s-standalone.jar" (name lib)))
