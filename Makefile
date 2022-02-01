@@ -46,7 +46,7 @@ test: classes
 	cd lib && clojure -M:test
 	cd cli && clojure -M:test
 
-pod-test: classes
+pod-test:
 	cd cli && clojure -M:pod-test
 
 integration-test:
