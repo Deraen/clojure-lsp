@@ -808,6 +808,13 @@ You can open server logs in a buffer with <code>M-x</code> <code>lsp-clojure-ser
 
 </details>
 
+<details>
+<summary><b>Neovim</b></summary>
+`:lua vim.lsp.set_log_level("debug")`
+<a href="https://github.com/neovim/nvim-lspconfig#troubleshooting">https://github.com/neovim/nvim-lspconfig#troubleshooting</a>
+
+</details>
+
 <p>An alternative is to pass <code>--trace-level verbose</code> to clojure-lsp during process start and clojure-lsp will log the communication to the server-log.</p>
 <h2 id="server-is-not-initializing">Server is not initializing<a class="headerlink" href="#server-is-not-initializing" title="Permanent link">#</a></h2>
 <p>Make sure you have the <a href="../installation/#native-binary-recommended">most recent version of <code>clojure-lsp</code></a></p>
@@ -929,7 +936,7 @@ in your <code>coc-settings.json</code> the line <code>disableDiagnostics</code> 
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 25, 2023</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 26, 2023</span>
     
   </small>
 </div>
