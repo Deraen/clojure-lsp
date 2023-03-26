@@ -31,6 +31,13 @@ Check below how to get the logs for most used clients:
 
 </details>
 
+<details>
+<summary><b>Neovim</b></summary>
+`:lua vim.lsp.set_log_level("debug")`
+<a href="https://github.com/neovim/nvim-lspconfig#troubleshooting">https://github.com/neovim/nvim-lspconfig#troubleshooting</a>
+
+</details>
+
 An alternative is to pass `--trace-level verbose` to clojure-lsp during process start and clojure-lsp will log the communication to the server-log.
 
 ## Server is not initializing
